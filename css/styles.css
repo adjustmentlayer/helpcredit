@@ -1,0 +1,84 @@
+
+.main-screen{
+    min-height:100vh;
+    background-color:transparent;
+    color:white;
+    text-align:center;
+}
+.site-background{
+    position:fixed;
+    height:100vh;
+    width:100%;
+    background-size:cover;
+    background-image:url(../img/main-screen1920.jpg);
+    z-index:-99;
+}
+.site-background div{
+    background-color: rgba(59, 67, 76, 0.3);
+    height:100vh;
+    width:100%;
+}
+footer{
+    background-color:white;
+}
+header{
+    padding:0 30px;
+    background-color:white;
+}
+.main-screen__border{
+    background-color:white;
+    width:50px;
+    
+}
+.features{
+    background-color:white;
+}
+.features__img-1{
+    background-size:cover;
+    background-image:url(../img/architectural640.jpg);
+}
+.features__img-2{
+    background-size:cover;
+    background-position: center;
+    background-image:url(../img/building-glass-architecture-perspective640.jpg);
+}
+
+.features__group{
+    width:80%;
+    margin:0 auto;
+}
+.features ul{
+    margin:0;
+}
+
+.features i {
+    color:var(--primary);
+}
+.why-us__header{
+    height:50vh;
+    background-size:cover;
+    background-image:url(../img/investment1800.jpg);
+    color:white;
+}
+.why-us__body{
+    background-color:white;
+    padding:50px 0;
+}
+
+.why-us p {
+    text-align:center;
+}
+.why-us__icon{
+    width:64px;
+    height:64px;
+    margin:0 auto;
+    margin-bottom:30px;
+}
+.contact{
+    background-color: var(--light);
+    
+}
+img{
+    width: 100%;
+    height:auto;
+}
